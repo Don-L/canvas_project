@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Startpoint</title>
+    <title>Drawing</title>
+    <script type="text/javascript" src="circle.js"></script>
     <script src='index.js'></script>
     <link rel='stylesheet' type='text/css' href='main.css'>
   </head>
   <body>
     <canvas id='main' width='2000' height='700'></canvas>
-      <form id="circleForm">
+      <form id="radiusForm">
         <!-- <input type="text" name="hex-colour"></input> -->
-        <input type="text" name="circle radius"></input>
-        <input type="submit" value="Submit"></input>
+        <input type="text" id="circle-radius" name="circle-radius"></input>
       </form>
+      <button id="button">Click me</button>
+      <form id="transparencyForm">
+        <!-- <input type="text" name="hex-colour"></input> -->
+        <input type="text" id="circle-transparency" name="circle-transparency"></input>
+      </form>
+      <button id="button2">Click me</button>
   </body>
 </html>
